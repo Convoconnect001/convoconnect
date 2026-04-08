@@ -19,7 +19,7 @@ export default function Navbar() {
       </div>
 
       {/* CTA */}
-      <a href="#" className="site-nav-cta">Let's Connect →</a>
+      <a href="mailto:hubert@convoconnect.in" className="site-nav-cta">Let's Connect →</a>
 
       {/* HAMBURGER */}
       <div

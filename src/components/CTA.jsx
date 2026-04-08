@@ -10,7 +10,7 @@ export default function CTA() {
         Book a discovery call — we listen before we design.
       </p>
 
-      <a href="#" className="cta-btn">
+      <a href="mailto:hubert@convoconnect.in" className="cta-btn">
         Book a Discovery Call →
       </a>
 

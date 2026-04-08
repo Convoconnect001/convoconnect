@@ -20,7 +20,9 @@ export default function Hero() {
           </p>
 
           <div className="hero-btns">
-            <div className="btn-primary">Let's Connect →</div>
+            <a href="mailto:hubert@convoconnect.in" className="btn-primary">
+              Let's Connect →
+            </a>
             <a className="btn-ghost" href="#services">
               Explore What We Offer →
             </a>
