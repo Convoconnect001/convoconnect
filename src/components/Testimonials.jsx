@@ -18,18 +18,20 @@ The facilitator came prepared with a thorough understanding...
 
 I would engage them again without hesitation.`,
       author: "Office Manager · Coats",
+      name: "Shalini Raju",
       image: "/testimonial1.jpeg",
     },
     {
       text: `The ‘Essence of Excellence’ session by ConvoConnect brought a fresh and experiential perspective...`,
       full: `The ‘Essence of Excellence’ session by ConvoConnect brought a fresh and experiential perspective to understanding key competencies. The hands-on activity of creating personalized blends effectively translated abstract concepts into meaningful takeaways. The session was engaging, well-structured, and added significant value to our HR teams across divisions.`,
       author: "Chief Manager (HR) · HAL",
+      name: "Swapna Uthappa",
       image: "/testimonial2.jpeg",
     },
   ];
 
   return (
- <section className="testimonial-marquee">
+ <section id="testimonials" className="testimonial-marquee">
       <div className="t-container">
         <p className="t-kicker">Client Stories</p>
         <h2 className="t-title">
@@ -47,7 +49,10 @@ I would engage them again without hesitation.`,
               >
                 <div className="t-top">
                   <img src={t.image} alt="" />
+                  <div className="t-author-col">
+                  <span>{t.name}</span>
                   <span>{t.author}</span>
+                  </div>
                 </div>
 
                 <p className="t-text">{t.text}</p>
