@@ -939,6 +939,11 @@ body {
   color: var(--navy);
 }
 
+.t-author-col{
+  display: flex;
+  flex-direction: column;
+}
+
 /* ========================= */
 /* ANIMATION */
 /* ========================= */
