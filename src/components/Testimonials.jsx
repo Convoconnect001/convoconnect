@@ -50,7 +50,7 @@ I would engage them again without hesitation.`,
                 <div className="t-top">
                   <img src={t.image} alt="" />
                   <div className="t-author-col">
-                  <span>{t.name}</span>
+                  <span style={{"color": "white"}}>{t.name}</span>
                   <span>{t.author}</span>
                   </div>
                 </div>
@@ -69,7 +69,13 @@ I would engage them again without hesitation.`,
               onClick={(e) => e.stopPropagation()} /* prevent close */
             >
               <p className="t-full">{active.full}</p>
-              <p className="t-author">{active.author}</p>
+              <div className="t-top" style={{"marginTop": "24px"}}>
+                  <img src={active.image} alt="" />
+                  <div className="t-author-col">
+                  <span style={{"color": "black", "fontWeight": "600"}}>{active.name}</span>
+                  <span style={{"color": "gray", "fontWeight": "600"}}>{active.author}</span>
+                  </div>
+                </div>
             </div>
           </div>
         )}
