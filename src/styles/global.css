@@ -826,6 +826,12 @@ body {
   animation: scrollX 40s linear infinite;
 }
 
+.t-author-col{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
 /* 🔥 PERFECT LOOP */
 @keyframes scrollX {
   0% {
@@ -937,12 +943,6 @@ body {
   margin-top: 20px;
   font-weight: 600;
   color: var(--navy);
-}
-
-.t-author-col{
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
 }
 
 /* ========================= */
