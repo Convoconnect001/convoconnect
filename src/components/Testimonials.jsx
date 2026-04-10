@@ -18,7 +18,7 @@ The facilitator came prepared with a thorough understanding...
 
 I would engage them again without hesitation.`,
       author: "Office Manager · Coats",
-      name: "Shalini Raju",
+      name: "Shalini Mervyn D’ Souza",
       image: "/testimonial1.jpeg",
     },
     {
